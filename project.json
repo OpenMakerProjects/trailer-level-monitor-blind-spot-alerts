@@ -1,0 +1,21 @@
+{
+  "id": 763,
+  "title": "Trailer Level Monitor Blind Spot Alerts",
+  "repository_slug": "trailer-level-monitor-blind-spot-alerts",
+  "category": "Smart Vehicles",
+  "platform": "Teensy 4.1",
+  "platform_family": "arduino",
+  "difficulty": "Advanced",
+  "estimated_hours": 40,
+  "connectivity": "BLE",
+  "components": [
+    "vibration sensor",
+    "ultrasonic sensors",
+    "cellular modem"
+  ],
+  "scope": "Build a smart vehicles prototype that uses vibration sensor, ultrasonic sensors, cellular modem to detect objects in blind-spot zones. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Blind Spot Alerts demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/trailer-level-monitor-blind-spot-alerts/trailer-level-monitor-blind-spot-alerts.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
